@@ -21,14 +21,14 @@
 
 ### Normal mode
 
-| Intent                               | Act                    | Repeat | Reverse |
-|--------------------------------------+------------------------+--------+---------|
-| Make a change                        | `{edit}`               | `.`    | `u`     |
-| Scan line for next character         | `f{char}               | `;`    | `,`     |
-| Scan line for previous character     | `F{char}`              | `;`    | `,`     |
-| Scan document for next match         | `/pattern<CR>`         | `n`    | `N`     |
-| Scan document for the previous match | `?pattern<CR>`         | `n`    | `N`     |
-| Perform substitution                 | `:s/target/replacement | `&`    | `u`     |
+| Intent                               | Act                     | Repeat | Reverse |
+|--------------------------------------|-------------------------|--------|---------|
+| Make a change                        | `{edit}`                | `.`    | `u`     |
+| Scan line for next character         | `f{char}`               | `;`    | `,`     |
+| Scan line for previous character     | `F{char}`               | `;`    | `,`     |
+| Scan document for next match         | `/pattern<CR>`          | `n`    | `N`     |
+| Scan document for the previous match | `?pattern<CR>`          | `n`    | `N`     |
+| Perform substitution                 | `:s/target/replacement` | `&`    | `u`     |
 
 
 ## Switching between models
